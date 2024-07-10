@@ -215,7 +215,7 @@ line-height: 26px;
 }
 .target-container{
 display: flex;   
-justify-content: center; 
+justify-content:flex-start; 
 gap: 33px;
 margin-top: 48px;
 }
@@ -268,9 +268,11 @@ margin-left: 60px;
     font-size: 16px;
     font-weight: 400;
     margin-top: 8px;
+    justify-content: flex-start;
 }
 .target-container h4{
- margin-top: 8px;   
+ margin-top: 8px;  
+ justify-content: flex-start; 
 
 }
 .target-container button{
@@ -283,6 +285,7 @@ margin-left: 60px;
     text-decoration-line: underline;   
     border: none;
     margin-top: 15px;
+    justify-content: flex-start;
 }
 .video-section video{
 margin-top: 40px;    
@@ -292,6 +295,7 @@ margin-top: 40px;
  padding: 80px 97px;
  margin: 0 auto;
  background-color: rgba(13, 19, 33, 0.02);
+ margin-top: 50px;
 }
 .Support-section{ 
  height: 314px;   
