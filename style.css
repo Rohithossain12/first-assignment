@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.azeret-mono-fomt {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+*{
+box-sizing: border-box;  
+margin: 0;  
+padding: 0;
+}
+
+body{
+font-family: "Azeret Mono", monospace;   
+}
+
+.header-section{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ justify-content: space-between;
+ margin:50px 150px;
+ 
+}
+.header-section h2{
+ color: rgb(13, 19, 33);
+ font-size: 25px;
+ font-weight:600px; 
+}
+.header-section button{
+ width: 180px;
+ height: 30px;
+ color: rgb(13, 19, 33);
+font-size: 15px;
+font-weight: 400;
+}
+.section-container{
+max-width:1440px;
+height: 652px;   
+margin: 0 auto;
+display: flex;    
+flex-direction: column;
+text-align: center;
+
+}
+.first-section{
+ background-image: url(./assets/Hero-bg.png);
+ 
+}
+
+.section-container img{
+ margin-top: 45px;   
+}
+.section-container h1{
+margin-top: 32px;  
+color: rgb(13, 19, 33);
+font-size: 30px;
+font-weight: 600;  
+}
+.section-container p{
+margin-top: 24px;    
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.section-container button{
+color: rgb(255, 255, 255); 
+background-color: black; 
+padding: 14px 18px; 
+border-radius: 10px;
+font-size: 17px;
+margin-top:50px;
+}
+/* second section style start */
+.second-section{
+ width: 1140px;
+ height: 477px;
+ left: 148px;
+ right: 152px;     
+ margin: 0 auto;
+ margin-top: 74px;
+ 
+
+}
+.second-section-text-content{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;   
+ text-align: center;
+
+
+}
+.second-section-text-content h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37px;    
+}
+.second-section-text-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px; 
+}
+.banner-section-content{
+ width: 1140px;
+ height: 336px;    
+ margin: 0 auto;
+ 
+}
+.banner-section{
+ display: flex;
+width: 1140px;
+margin: 0 auto;
+}
+.banner-text-content{   
+ width: 50%;   
+ height: 336px;
+
+}
+.banner-text-content h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-top:48px;
+}
+.banner-text-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;   
+    margin-top: 16px;
+}
+.banner-text-content button{
+ padding: 12px 20px 12px 20px;
+ margin-top: 40px;     
+}   
+.banner-image-container{
+width: 50%;    
+height: 336px;
+display: flex;
+justify-content:center;
+align-items: center;
+margin-left: 100px;
+}
+   
+.second-banner-section{
+    width: 1140px;
+    height: 336px;    
+    margin: 0 auto;   
+   border: 2px solid tomato;
+   text-align: center;
+  justify-content: space-around;
+   
+   
+}
+.third-section-container{
+ width:1140px ;  
+ height: 336px; 
+ margin: 0 auto;
+ 
+}
+
+.video-section{
+width: 1140px;    
+height: 800px;
+margin: 0 auto;
+}
+.video-section h2{
+
+ justify-content: center;   
+ text-align: center;
+ margin-top: 30px;
+ color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+
+}
+.video-section p{
+justify-content: center;    
+text-align: center;
+margin-top: 15px;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.target-section{
+ width: 1140px;   
+ height: 600px;
+ margin: 0 auto;
+}
+.target-section{
+ text-align: center;   
+}
+.section-tittle{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-top: 140px;
+   
+}
+.section-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;   
+    margin-top: 15px;
+}
+.target-container{
+display: flex;   
+justify-content: center; 
+gap: 33px;
+margin-top: 48px;
+}
+.target{
+padding: 30px;    
+}
+.color1{
+
+ background-color: rgba(255, 76, 30, 0.05);;    
+}
+.color2{
+ background-color:rgba(0, 76, 232, 0.05)    
+}
+.color3{
+ background-color:  rgba(255, 223, 0, 0.05)   
+}
+.second-image-section{
+width: 1140px;
+height: 336px;
+margin: 0 auto;
+display: flex;
+}
+.banner-image{
+margin-top: 48px;    
+}
+.banner-text{
+margin-left: 60px;    
+}
+.banner-text h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 48px;
+}
+
+.banner-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.banner-text button{
+    padding: 12px 20px 12px 20px;
+    margin-top: 40px;
+
+}
+.target-container p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.target-container h4{
+ margin-top: 8px;   
+
+}
+.target-container button{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;   
+    border: none;
+    margin-top: 15px;
+}
+.video-section video{
+margin-top: 40px;    
+}
+.why-dev{
+ width: 1140px;   
+ padding: 80px 97px;
+ margin: 0 auto;
+ background-color: rgba(13, 19, 33, 0.02);
+}
+.Support-section{ 
+ height: 314px;   
+ margin: 0 auto;
+justify-content: center;
+text-align: center;
+padding: 80px 48px;
+background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
+  url('./assets/handshake.jpg');
+background-position: center;
+background-size: cover;
+margin: 46px 150px 80px 150px;
+border-radius: 30px;
+
+}
+.Support-section h3{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+.Support-section p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;  
+    margin-top: 10px;
+}
+.btn-section{
+width: 400px;  
+height: 35px;  
+margin-top: 24px;
+font-size:15px;
+border-radius: 8px;
+font-size: 12px;
+}
+.submit-section{
+ border-radius: 8px;
+ background: rgb(255, 255, 255);
+justify-content: center;
+align-items: center;
+padding: 10px 10px ;
+}
+.footer-section{
+ background-color:rgba(13, 19, 33, 0.03);
+ /* height: 100px; */
+}
+.footer{
+ display: flex;   
+ justify-content: space-between;
+ align-items: center;
+
+}
